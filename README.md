@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# NewsToday
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## API Documentation
 
-## Available Scripts
+- **API Provider:** News API
+- **API Documentation:** [News API Documentation](https://newsapi.org/docs/endpoints/top-headlines)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Scrolling News Line**: Implemented a breaking news scroll line below the navbar, displaying the titles of news from the News API in a scrolling manner using CSS animation and transformation properties.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Logo Integration**: Included a logo for the website: **NewsToday** to enhance branding and visual appeal.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Latest News on Homepage**: Integrated functionality to reflect the latest news on the homepage of the website, providing users with up-to-date information.
 
-### `npm test`
+4. **Category-based Navigation**: Added a navbar with menu items like Technology, Business, Health, Sports, and Entertainment. Clicking on these menu items dynamically loads and displays the latest news for the selected category.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **News Card Layout**: Designed a card layout for each news item, featuring:
+   - **Image**: Displayed an image related to the news article.
+   - **Date**: Positioned the date of the news at the top right corner of the image.
+   - **Source**: Provided the source of the news article.
+   - **Title**: Presented the title of the news article.
+   - **Description**: Included a brief description of the news.
+   - **Read More Button**: Included a button to redirect users to the original website for further reading.
 
-### `npm run build`
+6. **Footer Component**
+The Footer component (`Footer.js`) is responsible for displaying the footer section of the NewsToday website. It consists of three sections:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - **About Us**: Provides a brief description of NewsToday and its commitment to delivering timely and accurate news updates.
+  - **Follow Us**: Displays social media icons for Facebook, Twitter, Instagram, and LinkedIn, allowing users to follow NewsToday's social media profiles.
+  - **Copyright**: Displays the copyright information for NewsToday, indicating that all rights are reserved for the year 2023.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+      The Footer component enhances the user experience by providing additional information about NewsToday and offering links to its social media profiles for further engagement.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technical Details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend Framework**: Utilized a modern frontend framework or library (React, Angular, Vue, etc.) for building the news website.
+- **Data Fetching**: Fetched data from the News API using asynchronous requests, such as `fetch` or Axios.
+- **Styling**: Leveraged CSS animation and transformation properties to create the scrolling news line and achieve an appealing layout for the news cards.
+- **API Integration**: Integrated the News API to dynamically fetch and display news articles based on selected categories.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Error Handling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To ensure a smooth user experience, error handling has been implemented for cases where the API request fails. If there are any issues fetching the headlines, a user-friendly message will be displayed to alert the user. This message will provide guidance on what might have gone wrong and encourage the user to try again later.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The error handling mechanism is designed to catch network errors or any unexpected responses from the API. In case of an error, the application will gracefully handle the situation and prevent it from affecting the overall functionality of the news board.
 
-## Learn More
+The implementation of error handling ensures that users are informed about the issue without disrupting their browsing experience. This feature contributes to the usability and reliability of the NewsToday website.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/newswebsite.git
+   cd newswebsite
 
-### Code Splitting
+2. Install dependencies (for frontend and backend, if applicable):
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Obtain an API key from News API and create a `.env` file in the root directory with the following content:
+   ```env
+   REACT_APP_NEWS_API_KEY=your_api_key_here
+   ```
 
-### Analyzing the Bundle Size
+4. Run the application:
+   ```sh
+   npm start
+   # or
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-### Making a Progressive Web App
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React 
+- Axios 
+- Node.js
+- Bootstrap
+- font-awesome-icons from cdnjs
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
