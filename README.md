@@ -22,7 +22,7 @@
    - **Title**: Presented the title of the news article.
    - **Description**: Included a brief description of the news.
    - **Read More Button**: Included a button to redirect users to the original website for further reading.
-
+   -  **Note:** If the image is not available, a default image corresponding to the category of the news is displayed to ensure a consistent user experience.
 6. **Footer Component**
 The Footer component (`Footer.js`) is responsible for displaying the footer section of the NewsToday website. It consists of three sections:
 
@@ -31,7 +31,6 @@ The Footer component (`Footer.js`) is responsible for displaying the footer sect
   - **Copyright**: Displays the copyright information for NewsToday, indicating that all rights are reserved for the year 2023.
 
       The Footer component enhances the user experience by providing additional information about NewsToday and offering links to its social media profiles for further engagement.
-
 
 ## Technical Details
 
