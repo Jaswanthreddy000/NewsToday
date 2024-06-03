@@ -1,5 +1,7 @@
 # NewsToday
 <img width="1440" alt="Screen Shot 2024-06-02 at 7 19 46 pm" src="https://github.com/Jaswanthreddy000/NewsToday/assets/116836018/89e33601-1f26-4e09-a8b1-745389cd5296">
+<img width="1440" alt="Screen Shot 2024-06-03 at 12 43 46 pm" src="https://github.com/Jaswanthreddy000/NewsToday/assets/116836018/a6be243d-f3df-49cb-84a6-f2268beefbd6">
+
 
 ## API Documentation
 
