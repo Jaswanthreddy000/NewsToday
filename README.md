@@ -35,7 +35,7 @@ The Footer component (`Footer.js`) is responsible for displaying the footer sect
 
 ## Technical Details
 
-- **Frontend Framework**: Utilized a modern frontend framework or library (React, Angular, Vue, etc.) for building the news website.
+- **Frontend Framework**: Utilized a modern frontend framework or library (React) for building the news website.
 - **Data Fetching**: Fetched data from the News API using asynchronous requests, such as `fetch` or Axios.
 - **Styling**: Leveraged CSS animation and transformation properties to create the scrolling news line and achieve an appealing layout for the news cards.
 - **API Integration**: Integrated the News API to dynamically fetch and display news articles based on selected categories.
