@@ -1,6 +1,6 @@
 # NewsToday
 
-<img width="1440" alt="Screen Shot 2024-06-03 at 12 46 46 pm" src="https://github.com/Jaswanthreddy000/NewsToday/assets/116836018/7310a86e-48f9-49af-af76-9d831f74b12b">
+<img width="1440" alt="Screen Shot 2024-06-03 at 12 48 11 pm" src="https://github.com/Jaswanthreddy000/NewsToday/assets/116836018/81a40f3d-2a29-462e-b34d-db63d7125a8c">
 <img width="1440" alt="Screen Shot 2024-06-03 at 12 49 22 pm" src="https://github.com/Jaswanthreddy000/NewsToday/assets/116836018/cb572d57-dc75-46d0-8911-c3c4a55feb2c">
 <img width="1440" alt="Screen Shot 2024-06-03 at 12 43 46 pm" src="https://github.com/Jaswanthreddy000/NewsToday/assets/116836018/a6be243d-f3df-49cb-84a6-f2268beefbd6">
 
